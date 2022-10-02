@@ -10,7 +10,6 @@ class FindSameStructure {
         if (b == null) return true;
         if (a == null || b.val != a.val) return false;
         return (isTheSameStructure(a.left, b.left) && isTheSameStructure(a.right, b.right));
-
     }
     public class TreeNode {
         int val;
